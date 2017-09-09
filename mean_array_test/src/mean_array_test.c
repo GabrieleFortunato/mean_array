@@ -31,7 +31,7 @@ void test_digits_number(){
 int main(void) {
 	CU_initialize_registry();
 	CU_pSuite pSuite_A = CU_add_suite("SUITE A",init_suite_default,clear_suite_default);
-	CU_add_test(pSuite_A,"test of generate_number()",test_number);
+	CU_add_test(pSuite_A,"test of generate_number()",test_length);
 	CU_pSuite pSuite_B = CU_add_suite("SUITE A",init_suite_default,clear_suite_default);
 	CU_add_test(pSuite_B,"test of digits_number",test_digits_number);
 	CU_basic_set_mode(CU_BRM_VERBOSE);
