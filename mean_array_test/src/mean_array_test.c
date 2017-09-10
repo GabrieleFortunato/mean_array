@@ -11,8 +11,6 @@
 #include <CUnit/basic.h>
 #include "mean_array.h"
 
-#define TEST 16
-
 int init_suite_default(){
 	return ZERO;
 }
@@ -24,13 +22,7 @@ int clear_suite_default(){
 void test_length(){
 }
 
-void test_ordered(){
-}
-
-void test_bubble(){
-}
-
-void test_median(){
+void test_mean(){
 }
 
 int main(void) {
@@ -38,11 +30,7 @@ int main(void) {
 	CU_pSuite pSuite_A = CU_add_suite("SUITE A",init_suite_default,clear_suite_default);
 	CU_add_test(pSuite_A,"test of generate_number()",test_length);
 	CU_pSuite pSuite_B = CU_add_suite("SUITE B",init_suite_default,clear_suite_default);
-	CU_add_test(pSuite_B,"test of ordered_array()",test_ordered);
-	CU_pSuite pSuite_B = CU_add_suite("SUITE C",init_suite_default,clear_suite_default);
-	CU_add_test(pSuite_B,"test of bubble_sort()",test_bubble);
-	CU_pSuite pSuite_B = CU_add_suite("SUITE D",init_suite_default,clear_suite_default);
-	CU_add_test(pSuite_B,"test of median()",test_median);
+	CU_add_test(pSuite_B,"test of median()",test_mean);
 	CU_basic_set_mode(CU_BRM_VERBOSE);
 	CU_basic_run_tests();
 	CU_cleanup_registry();
