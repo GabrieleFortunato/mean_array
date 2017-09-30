@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : mean_array_test.c
- Author      : 
+ Author      : Marialuisa Tunesi
  Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
@@ -19,11 +19,9 @@ int clear_suite_default(){
 	return ZERO;
 }
 
-void test_length(){
-}
+void test_length(){}
 
-void test_mean(){
-}
+void test_mean(){}
 
 int main(void) {
 	CU_initialize_registry();

@@ -1,8 +1,8 @@
 /*
  * mean_array.h
  *
- *  Created on: 09 set 2017
- *      Author: gabriele
+ *  Created on:
+ *      Author:
  */
 
 #ifndef MEAN_ARRAY_H_
@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 
 #define ZERO            0
 #define ONE             1
@@ -19,11 +20,10 @@
 #define MAX_ELEMENT     100
 #define FILE_NAME       "mean_array.txt"
 #define FILE_MODE       "w"
-#define NEW_LINE        "\n"
 #define SEPARATOR_LINE  "-"
 #define PRINT_ARRAY     "Array generato: "
 #define PRINT_ELEMENT   "%d"
-#define PRINT_MEAN      "Media degli elementi dell'array: %.2f"
+#define PRINT_MEAN      "\nMedia degli elementi dell'array: %.2f"
 
 /**
  * Assicura che ad ogni lancio il programma

@@ -1,8 +1,8 @@
 /*
  * mean_array.c
  *
- *  Created on: 09 set 2017
- *      Author: gabriele
+ *  Created on:
+ *      Author:
  */
 
 #include "mean_array.h"
