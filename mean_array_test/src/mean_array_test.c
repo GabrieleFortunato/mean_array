@@ -1,7 +1,7 @@
 /*
  ============================================================================
  Name        : mean_array_test.c
- Author      : Marialuisa Tunesi
+ Author      :
  Version     :
  Copyright   : Your copyright notice
  Description : Hello World in C, Ansi-style
